@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Manutenção Sites</title>
   <style>
     body {
@@ -10,24 +10,32 @@
       background-color: #000;
       color: #fff;
       font-family: Arial, sans-serif;
-      text-align: center;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
       justify-content: space-between;
+      text-align: center;
     }
 
     .header {
       margin-top: 50px;
     }
 
-    .logo {
+    .header img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    .logo-text {
       font-size: 2.5em;
       font-weight: bold;
+      margin-bottom: 20px;
     }
 
     .whatsapp-button {
-      margin-top: 20px;
+      margin-bottom: 50px;
     }
 
     .whatsapp-button a {
@@ -61,18 +69,18 @@
 </head>
 <body>
   <div class="header">
-    <div class="logo">Manutenção Sites</div>
+    <img src="imagens/logo.png" alt="Logo da Manutenção Sites" />
+    <div class="logo-text">Manutenção Sites</div>
     <div class="whatsapp-button">
-      <a href="https://wa.me/5534991504577" target="_blank">Fale Conosco no WhatsApp</a>
+      <a href="https://wa.me/5534991504577" target="_blank" rel="noopener noreferrer">
+        Fale Conosco no WhatsApp
+      </a>
     </div>
   </div>
 
   <div class="images">
-    
-<img src="imagens/imagem1.png" alt="Imagem 1">
-<img src="imagens/imagem2.png" alt="Imagem 2">
-
+    <img src="imagens/imagem1.png" alt="Imagem 1" />
+    <img src="imagens/imagem2.png" alt="Imagem 2" />
   </div>
 </body>
 </html>
-
